@@ -30,7 +30,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: status.rivet.work
-  baseUrl: /RivetWork/uptime
+  baseUrl: https://friendly-adventure-738lml2.pages.github.io
   logoUrl: https://www.rivet.work/wp-content/uploads/2023/05/MicrosoftTeams-image.png
   name: RIVET Status
   introTitle: RIVET is how construction labor gets to work
