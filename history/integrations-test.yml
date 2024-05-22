@@ -1,7 +1,7 @@
 url: https://integration-test.api.rivet.work/ping
-status: down
-code: 503
-responseTime: 77
-lastUpdated: 2024-05-21T23:59:27.102Z
+status: up
+code: 200
+responseTime: 835
+lastUpdated: 2024-05-22T00:24:16.133Z
 startTime: 2024-05-21T21:02:28.008Z
 generator: Upptime <https://github.com/upptime/upptime>
