@@ -41,18 +41,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/integration-test.api.rivet.work.ico",
     "slug": "integrations-test",
     "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "uptime": "89.92%",
+    "uptimeDay": "89.92%",
+    "uptimeWeek": "89.92%",
+    "uptimeMonth": "89.92%",
+    "uptimeYear": "89.92%",
     "time": 654,
     "timeDay": 654,
     "timeWeek": 654,
     "timeMonth": 654,
     "timeYear": 654,
     "dailyMinutesDown": {
-      "2024-05-21": 0
+      "2024-05-22": 19,
+      "2024-05-21": 1
     }
   },
   {
