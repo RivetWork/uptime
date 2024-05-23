@@ -1,36 +1,67 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: RivetWork # Your GitHub organization or username, where this repository lives
+repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Data Agents
+    url: https://agent.rivet.work/ping
+    assignees:
+      - AndyInternet
+      - 13protons
+  - name: ETL
+    url: https://etl.rivet.work/ping
+    assignees:
+      - AndyInternet
+      - pborel
+      - ickybodclay
+      - mmhilty
+      - 13protons
+  - name: Integrations Test
+    url: https://integration-test.api.rivet.work/ping
+    assignees:
+      - AndyInternet
+      - pborel
+      - ickybodclay
+      - mmhilty
+      - 13protons
+  - name: Rivet App
+    url: https://app.rivet.work
+  - name: Rivet API
+    url: https://api.rivet.work/ping
+  - name: Marketing site
+    url: https://rivet.work
+    assignees:
+      - AndyInternet
+      - 13protons
+  - name: URL Shortener
+    url: https://rivt.cc/ping
+    assignees:
+      - AndyInternet
+      - 13protons
+  # - name: IPv6 test
+  #   url: forwardemail.net
+  #   port: 80
+  #   check: "tcp-ping"
+  #   ipv6: true
 
+assignees: # Users to assign downtime issues (optional)
+  - 13protons
+user-agent: 13protons
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # cname: status.rivet.work
+  baseUrl: /uptime
+  cname: rivetwork.github.io
+  logoUrl: https://www.rivet.work/wp-content/uploads/2023/05/MicrosoftTeams-image.png
+  name: RIVET Status
+  introTitle: RIVET is how construction labor gets to work
+  introMessage: The status of the services used to deliver RIVET's product experience
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: RIVET
+      href: https://www.rivet.work
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
